@@ -14,7 +14,12 @@ public class main {
         // khai báo và khởi tạo 1 đối tượng laptop
         Laptop lt = new Laptop();
         // gán gtri cho thuộc tính của đối tượng lt
-        lt.price =  23;
+        lt.price = -23;
+        lt.setPrice(32);
+        lt.setBrand("OK bay by");
+        
+        System.out.println(lt.getBrand());
+        System.out.println(lt.getPrice());
         
 //        System.out.println(lt.hangSX);
 //        

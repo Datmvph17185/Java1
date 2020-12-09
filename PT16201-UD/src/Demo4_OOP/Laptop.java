@@ -19,6 +19,33 @@ public class Laptop {
     protected double price;
 
     // phương thức
+    // trả về gtri của thuộc tính
+    public String getBrand() {
+        return brand;
+    }
+    // gán gtri cho thuộc tính
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public int getVersion() {
+        return version;
+    }
+
+    public void setVersion(int version) {
+        this.version = version;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        if (price >=0 ){
+             this.price = price;
+        }
+        
+    }
     //constructor(hàm tạo, pthuc khởi tạo)
     //-> tạo đối tượng
     public Laptop() {
