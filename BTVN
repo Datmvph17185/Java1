@@ -12,12 +12,12 @@ tuổi thọ = tuổi bạn + tuổi ng yêu =))
 	Nhập chiều cao: 
 	=> show thông tin vừa nhập sử dụng printf
 
-3. Nhập thông tin Sức khoẻ
+4. Nhập thông tin Sức khoẻ
 Nhập tên, nhập tình trạng, nhập nhiệt độ
 -> nếu nhiệt độ > 38 -> in ra thông báo "Khám nhanh covid giờ"
 còn lại -> in ra thông báo"Khoẻ như trâu, covid cũng sợ"
 => IN ra tất cả thông tin
 
-4. Nhập số đo 3 vòng của ng yêu cũ
+5. Nhập số đo 3 vòng của ng yêu cũ
 biết số đo vòng 1 hệ số 3, vòng 3 hệ số 2.
 => in ra TBC của 3 vòng
